@@ -109,6 +109,16 @@ The application includes Vite configuration bound to `0.0.0.0:3000` suitable for
 #### 2. Vercel or Netlify
 Because this is a standard Vite React application with client-side API fetches, you can deploy the `dist` build output directly to Vercel, Netlify, or GitHub Pages.
 
+
+## Cloudflare Pages Deployment
+
+1. Connected GitHub repository `sverma9126/weather-intelligence-app` to Cloudflare Pages.
+2. Build Configuration:
+   - **Framework preset:** React (Vite)
+   - **Build command:** `npm run build`
+   - **Build output directory:** `dist`
+3. Automatically deploys updates on every push to the `main` branch.
+
 ---
 
 ## 🛠️ Tech Stack & Dependencies
