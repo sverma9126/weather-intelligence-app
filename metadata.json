@@ -1,0 +1,6 @@
+{
+  "name": "Weather Intelligence",
+  "description": "Real-time weather analytics, 7-day forecast, interactive charts, and smart planning recommendations powered by Open-Meteo.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
